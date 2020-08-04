@@ -1,0 +1,91 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	color :#222;
+}
+.navbar{
+	font-size: 20px;
+	padding: .8rem; 
+}
+.navbar-nav li{
+	padding-right : 20px; 
+}
+.nav-link {
+	font-size: 1.1em !important;
+}
+.navbar-brand {
+	font-size: 30px;
+  font-family: 'Lobster', cursive;
+  color: #00802b;
+}
+.carousel-inner img{
+	height: 100%;
+	width : 100%;
+}
+.carousel-caption{
+	position: absolute;
+	top : 50%;
+	transform: translateY(-50%);
+	padding-bottom : 1rem; 
+} 
+.display-3 {
+	color : black;
+	font-family: Lobster , sans-serif;
+	font-size: 65px;
+}
+.btn-outline-dark {
+	font-size: 30px;
+	margin-right: 20px;
+	color : black; 
+	border : 2px solid black;
+}
+.btn-outline-dark:hover {
+	background-color : #277A0C;
+	border : 1px solid black;
+	transform : scale(1.2);
+}
+.img-thumbnail {
+	border : solid 1px;
+	height : 300px;
+	width : 500px;
+}
+.social {
+	margin : 0px;
+	padding: 0px;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.welcome hr {
+	border : 0.8px solid #b4b4b4;
+	width : 85%;
+	margin-top: 0.6rem;
+	margin-bottom: 1rem;
+}
+.social a{
+	height : 100px;
+	width: 100px;
+	background-color: #f5f6fa;
+	border-radius: 50px;
+	margin : 10px;
+	line-height: 122px;
+	box-shadow: 1px 4px 2px 2px #dcdde1; 
+}
+.social a i{
+	transition: all 0.3s linear; 
+}
+.social a:hover i{
+	transform: scale(1.4);
+}
+.footer { 
+	font-size: 18px;
+	margin-top: 20px;
+	background-color : #3f3f3f;
+	color : #d5d5d5	;
+	padding-top: 2rem;
+}
+hr.light  { 
+	border : 1px solid #d5d5d5;
+	width : 75%;
+}
